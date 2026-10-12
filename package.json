@@ -1,0 +1,13 @@
+{
+  "name": "exercicio-aluno",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+    // --- EXECUÇÃO DO CÓDIGO (Code Runner) ---
+
+    // Roda o código dentro do terminal (permite que você digite dados se o programa pedir)
+    "code-runner.runInTerminal": true,
+
+    // Limpa o terminal antes de rodar o código de novo, evitando misturar com resultados antigos
+    "code-runner.clearPreviousOutput": true,
+
+    // --- VISUALIZAÇÃO E ESPAÇAMENTO ---
+
+    // Quebra as linhas longas de código para que elas caibam na tela sem precisar rolar para o lado
+    "editor.wordWrap": "on",
+
+    // Define que cada recuo de código (o espaço do 'Tab') terá o tamanho de 4 espaços
+    "editor.tabSize": 4,
+
+    // Ignora o padrão do arquivo e força o VS Code a usar sempre o tamanho de 4 espaços acima
+    "editor.detectIndentation": false,
+
+    // Remove aquele mini mapa do código que fica no canto direito, liberando mais espaço na tela
+    "editor.minimap.enabled": false,
+
+    // --- SALVAMENTO AUTOMÁTICO ---
+
+    // Salva o seu arquivo automaticamente toda vez que você parar de digitar
+    "files.autoSave": "afterDelay",
+
+    // Espera exatamente 1 segundo (1000 milissegundos) sem digitação para salvar o arquivo
+    "files.autoSaveDelay": 1000,
+
+    // --- AJUDAS VISUAIS DE SINTAXE ---
+
+    // Colore os pares de chaves '{}', colchetes '[]' e parênteses '()' com cores iguais para você não se perder
+    "editor.bracketPairColorization.enabled": true,
+
+    // Desenha uma linha vertical colorida conectando o início e o fim de um bloco de código ativo
+    "editor.guides.bracketPairs": "active",
+
+    // --- SUGESTÕES DE CÓDIGO (Autocomplete) ---
+
+    // Prioriza mostrar primeiro as variáveis e funções que você criou nas sugestões
+    "editor.suggestSelection": "first",
+
+    // Joga os modelos de códigos complexos e prontos para o final da lista de sugestões
+    "editor.snippetSuggestions": "bottom",
+
+    // --- CONFIGURAÇÕES DE ACESSIBILIDADE E SEGURANÇA ---
+
+    // Desativa o 'arrastar e soltar' com o mouse para evitar que você quebre o código sem querer
+    "editor.dragAndDrop": false,
+
+    // Permite aumentar/diminuir o zoom do editor segurando Ctrl e rodando o scroll do mouse
+    "editor.mouseWheelZoom": true,
+
+    // Aumenta o tamanho da fonte do terminal integrado para 16px
+    "terminal.integrated.fontSize": 16,
+
+    // Deixa o cursor de digitação piscando de forma suave para você não perdê-lo de vista
+    "editor.cursorBlinking": "smooth",
+
+    // Faz o cursor deslizar de forma suave entre as letras ao digitar ou mover as setas
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // Mostra a estrutura real de pastas no menu lateral, sem juntar pastas vazias na mesma linha
+    "explorer.compactFolders": false
+
+}

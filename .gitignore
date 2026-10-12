@@ -1,0 +1,20 @@
+# --- PASTAS DE DEPENDÊNCIAS ---
+# Ignora a pasta onde ficam salvas as bibliotecas instaladas.
+# Ela é muito pesada e nunca deve ir para o GitHub!
+node_modules/
+
+# --- ARQUIVOS DE CONFIGURAÇÃO SENSÍVEL (SENHAS) ---
+# Ignora arquivos de variáveis de ambiente.
+# É aqui que guardamos senhas e chaves secretas que não podem ser públicas.
+.env
+.env.*
+!.env.example
+
+# --- LOGS E ERROS ---
+# Ignora arquivos de relatórios de erros que o Node gera sozinho.
+*.log
+npm-debug.log*
+
+# --- CONFIGURAÇÕES DE EDITOR ---
+# Não sobe as suas configurações pessoais do VS Code.
+# .vscode/
